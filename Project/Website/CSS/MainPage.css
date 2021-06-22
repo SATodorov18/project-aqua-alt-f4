@@ -36,3 +36,27 @@
 #navbar-logo {
     cursor: pointer;
 }
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    justify-self: end;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: var(--brightred);
+    transition: all 0.2s ease-out;
+}
+
+.nav-links-btn {
+    background-color: var(--brightred);
+    padding: 6px 16px;
+}
