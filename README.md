@@ -10,4 +10,4 @@
 
 > Zlatomir Kostadinov - ZGKostadinov19@codingburgas.bg - Back-End Devoloper
 
-> Danail Todorov - DKTodorov29@codingburgas.bg - Designer
+> Danail Todorov - DKTodorov20@codingburgas.bg - Designer
