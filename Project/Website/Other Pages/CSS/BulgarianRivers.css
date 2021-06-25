@@ -100,27 +100,31 @@
   }
 
   .button {
-    color: #000;
-}
-
-.button::after, .button::before {
-    border: 3px solid #000;
-    content: "";
-    position: absolute;
-    width: calc(100% - 6px);
-    height: calc(100% - 6px);
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: transform 0.3s ease;
-}
-
-.button:hover::after {
-    transform: translate(-5px, -5px);
-
-}
-
-.button:hover::before {
-    transform: translate(5px, 5px);
-    
-}
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+ }
+ 
+ .button:hover {
+     background: #008168;
+ }
+ 
+ .button:active {
+     background: #006e58; 
+ }
+ 
+ .button-text {
+     display: inline-flex;
+     align-items: center;
+     padding: 0 24px;
+     color: #fff;
+     height: 100%;
+ }
