@@ -87,9 +87,6 @@ blog-container {
   .text-figcaption {
     font: 400 1.0rem/1.5 "Roboto"; color: hsl(000, 0%, 83%);
   }
-  em {
-      text-align: center;
-  }
   
   @media (max-width: 8.5in) {
     :root{
