@@ -106,9 +106,21 @@
                             <p><em>Lake Varna</em></p>
                         </figcaption>
 
-                        <input type="button" class = "button" value="Go Back" onclick="history.back(-1)" />
+                        <button type="button" class = "button" onclick="history.back(-1)" />
+                        <span class = "button-text">Go Back</span>
+                        <span class = "button-icom">
+                            <ion-icon name="arrow-back-outline"></ion-icon>
+                        </span>
+                    </button>
                 </div>
-
     </article>
+    <button type="button" class = "button" onclick="history.back(-1)" />
+        <span class = "button-text">Go Back</span>
+        <span class = "button-icom">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+        </span>
+    </button>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -99,4 +99,17 @@
     }
   }
 
-  
+.button {
+   display: inline-flex;
+   height: 50px;
+   padding: 0;
+   background: #009578;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   overflow: hidden;
+   font-size: 16px;
+   font-weight: 500;
+   cursor: pointer;
+}
+
