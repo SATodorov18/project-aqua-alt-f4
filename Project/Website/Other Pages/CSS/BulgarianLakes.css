@@ -113,3 +113,20 @@
    cursor: pointer;
 }
 
+.button:hover {
+    background: #008168;
+}
+
+.button:active {
+    background: #006e58; 
+}
+
+.button-text {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+
+
