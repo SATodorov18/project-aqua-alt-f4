@@ -4,19 +4,23 @@
     padding: 0;
 
 }
+
 body  {
     font-family: 'Arial' , sans-serif;
 }
+
 nav {
     background: #000;
     color: #fff;
     display: flex;
     justify-content: space-between;
 }
+
 nav .mainMenu {
     display: flex;
     list-style: none;
 }
+
 nav .mainMenu li a {
     display: inline-block;
     padding: 15px;
@@ -42,6 +46,7 @@ nav .mainMenu .closeMenu , .icons i {
     display: none;
     cursor: pointer;
 }
+
 .fa-facebook:hover {color: rgb(0, 110, 255);}
 .fa-twitter:hover {color: rgb(86, 154, 243);}
 .fa-instagram:hover {color: rgb(255, 0, 191);}
@@ -52,6 +57,7 @@ nav .logo {
     font-size: 25px;
     cursor: pointer;
 }
+
 @media(max-width: 800px){
     nav .mainMenu {
         height: 100vh;
@@ -67,6 +73,7 @@ nav .logo {
         transition: top 1s ease;
         display: none;
     }
+
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
@@ -74,17 +81,21 @@ nav .logo {
         right: 20px;
 
     }
+
     nav .openMenu {
         display: block;
     }
+
     nav .mainMenu li a:hover {
         background: none;
         color: rgb(255, 123, 0);
         font-size: 1.6rem;
     }
+
     .icons i {
         display: inline-block;
         padding: 12px;
     }
+
 }
-}
+
