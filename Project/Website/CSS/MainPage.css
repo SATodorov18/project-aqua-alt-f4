@@ -67,3 +67,11 @@ nav .logo {
         transition: top 1s ease;
         display: none;
     }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+}
