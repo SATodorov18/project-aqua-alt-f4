@@ -77,10 +77,6 @@
   .text-p {
     font: 400 1.0rem/1.5;
   }
-
-  .text-figcaption {
-    font: 400 1.0rem/1.5 "Roboto"; color: hsl(000, 0%, 83%);
-  }
   
   @media (max-width: 8.5in) {
     :root{
@@ -92,3 +88,34 @@
         font-size: 16px;
     }
   }
+
+  .button {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+ }
+ 
+ .button:hover {
+     background: #008168;
+ }
+ 
+ .button:active {
+     background: #006e58; 
+ }
+ 
+ .button-text {
+     display: inline-flex;
+     align-items: center;
+     padding: 0 24px;
+     color: #fff;
+     height: 100%;
+ }
+ 
