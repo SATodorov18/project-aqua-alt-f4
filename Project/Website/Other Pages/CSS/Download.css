@@ -1,0 +1,100 @@
+:root {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blog-container {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 3rem;
+    border-radius: 25px;
+  }
+  
+  .blog-article {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
+  
+    height: 100vh;
+  
+    padding: 0.5in 0;
+  }
+  
+  .blog-article * {
+    grid-column: start / end;
+  }
+  
+  @media (max-width: 893px) {
+    .blog-article {
+      grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
+      margin-bottom: 25rem;
+    }
+  }
+  @media (max-width: 	1400px) {.blog-article {margin-bottom: 40rem;}}
+  @media (max-width: 	716px) {.blog-article {margin-bottom: 55rem;}}
+  @media (max-width: 	612px) {.blog-article {margin-bottom: 60rem;}}
+  @media (max-width: 	580px) {.blog-article {margin-bottom: 70rem;}}
+  @media (max-width: 	380px) {.blog-article {margin-bottom: 80rem;}}
+  @media (max-width: 	320px) {.blog-article {margin-bottom: 130rem;}}
+
+  .images-logo {
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .first-size {
+    grid-column: 4 / 5;
+  }
+  .second-size {
+    grid-column: 3 / 6;
+  }
+  .third-size {
+    grid-column: 2 / 7;
+  }
+  .fourth-size {
+    grid-column: 1 / 8;
+  }
+  
+  .first-size img, .second-size img, .third-size img, .fourth-size img {
+    width: 100%;
+  }
+  
+  .images-figcaption {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: gray;
+  }
+
+  .reset-figure * {
+    display: block;
+  }
+
+  .text-h2, .text-p {
+    margin-bottom: 2.4rem;
+  }
+  
+  .text-h1 {
+    font: 400 2.0rem/1.2;
+  }
+  .text-h2 {
+    font: 400 1.5rem/1.2;
+  }
+  .text-p {
+    font: 400 1.0rem/1.5;
+  }
+  .text-figcaption {
+    font: 400 1.0rem/1.5 "Roboto"; color: hsl(000, 0%, 83%);
+  }
+  
+  @media (max-width: 8.5in) {
+    :root{
+        font-size: 18px;
+    }
+  }
+  @media (max-width: 5.0in) {
+    :root{
+        font-size: 16px;
+    }
+  }
