@@ -31,3 +31,25 @@
   @media (max-width: 	580px) {.blog-article {margin-bottom: 70rem;}}
   @media (max-width: 	380px) {.blog-article {margin-bottom: 80rem;}}
   @media (max-width: 	320px) {.blog-article {margin-bottom: 130rem;}}
+
+  .images-logo {
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .first-size {
+    grid-column: 4 / 5;
+  }
+  .second-size {
+    grid-column: 3 / 6;
+  }
+  .third-size {
+    grid-column: 2 / 7;
+  }
+  .fourth-size {
+    grid-column: 1 / 8;
+  }
+  
+  .first-size img, .second-size img, .third-size img, .fourth-size img {
+    width: 100%;
+  }
