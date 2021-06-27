@@ -25,6 +25,20 @@ nav .mainMenu li a {
     color: #fff;
     font-size: 1.5rem;
 }
+
 nav .mainMenu li a:hover {
     background: rgb(255,94,0);
+}
+
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
 }
